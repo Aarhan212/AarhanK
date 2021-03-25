@@ -1,0 +1,347 @@
+
+body {
+  font-family: 'Montserrat', sans-serif;
+
+}
+
+
+.w900 {
+  font-weight: 200;
+  text-align: center;
+  width: 50%;
+  margin-left: 28%;
+  margin-top: 50px;
+}
+.container-fluid {
+  height: 800px;
+  width: 100%
+}
+.I {
+  
+  font-weight: 400;
+  text-align: center;
+  margin-left: 30px;
+  margin-top: 50px;
+  font-size: 3rem;
+}
+span {
+  font-size: 5rem;
+  width: 100%;
+}
+#title {
+
+  height: 800px;
+    width: 100%;
+    background-color: #eeeeee;
+}
+#cta {
+  height:500px;
+  
+}
+#footer {
+  text-align:center;
+  height: 100px;
+  width: 100%;
+}
+.projects{
+  margin-left:10px;
+}
+.Blogs{
+  margin-left:10px;
+}
+#navbar {
+  background-color: #eeeeee;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  transition: top 0.3s;
+  z-index:1;
+}
+#navbar a {
+  float: left;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 15px;
+  text-decoration: none;
+}
+
+#navbar a:hover {
+
+  font-weight: bold;
+}
+.ex1
+{
+
+  border-radius: 5px;
+  background-color: white;
+  height: 250px;
+  width: 1120px;
+  padding: 10px;
+  border: 1px solid #e5e4e2;
+  margin-left: 110px;
+}
+.ex2
+{
+  border-radius: 5px;
+  height: 450px;
+  background-color: #f8f9fa;
+  width: 370px;
+
+  border: 1px solid #e5e4e2;
+  
+}
+.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow, transform;
+  transition-property: box-shadow, transform;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+  -webkit-transform: scale(1.1);
+  transform: scale(1.1);
+}
+/*.hvr-glow {
+  display: inline-block;
+  vertical-align: middle;
+  -webkit-transform: perspective(1px) translateZ(0);
+  transform: perspective(1px) translateZ(0);
+  box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+  -webkit-transition-duration: 0.3s;
+  transition-duration: 0.3s;
+  -webkit-transition-property: box-shadow;
+  transition-property: box-shadow;
+}
+.hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+*/
+.topnav-right
+{
+  float:right;
+}
+::-webkit-scrollbar
+{
+  width:0;
+
+}
+
+#progressbar
+{
+  position:fixed;
+  top:0;
+  right:0;
+  width:10px;
+  background:linear-gradient(to top,#008aff,#00ffe7);
+  animation: animate 5s linear infinite;
+}
+@keyframe animate
+{
+  0%,100%
+  {
+    filter:hue-rotate(0deg);
+  }
+  50%
+  {
+    filter:hue-rotate(0deg);
+  }
+}
+#progresspar:before
+{
+  content: '';
+  position:absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  background: linear-gradient(to top,#008aff,#00ffe7);
+  filter: blur(10px);
+}
+#progresspar:after
+{
+  content: '';
+  position:absolute;
+  top:0;
+  left: 0;
+  width:100%;
+  height:100%;
+  background: linear-gradient(to top,#008aff,#00ffe7);
+  filter: blur(30px);
+}
+@media only screen and (min-width:1000px) {
+  .w900 {
+    font-weight: 400;
+    text-align: center;
+    width: 50%;
+    margin-left: 28%;
+    margin-top: 50px;
+  }
+  .container-fluid {
+    height: 800px;
+    width: 100%
+  }
+  .I {
+    font-weight: 400;
+
+    
+    float: left;
+    
+    font-size: 2rem;
+  }
+  
+  #title {
+
+    height: 800px;
+    width: 100%;
+    background-color: #eeeeee;
+  }
+  #projects{
+    margin-left:100px;
+  }
+  #Blogs{
+    margin-left:5px;
+  }
+  #cta {
+    height:500px;
+    
+  }
+  #footer {
+    text-align:center;
+    height: 100px;
+    width: 100%;
+  }
+  #navbar {
+    background-color: #eeeeee; /* Black background color */
+    position: fixed; /* Make it stick/fixed */
+    top: 0; /* Stay on top */
+    width: 100%; /* Full width */
+    transition: top 0.3s; /* Transition effect when sliding down (and up) */
+    z-index:1;
+    z-index: 1;
+  }
+
+  /* Style the navbar links */
+  #navbar a {
+    float: left;
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 15px;
+    text-decoration: none;
+  }
+
+  #navbar a:hover {
+
+    font-weight: bold;
+  }
+  .ex1
+  {
+
+    border-radius: 5px;
+    background-color: white;
+    height: 250px;
+    width: 1120px;
+    padding: 10px;
+    border: 1px solid #e5e4e2;
+    margin-left: 110px;
+  }
+  .ex2
+  {
+    border-radius: 5px;
+    height: 450px;
+    background-color: #f8f9fa;
+    width: 370px;
+
+    border: 1px solid #e5e4e2;
+    margin-left: 110px;
+  }
+  .hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow, transform;
+    transition-property: box-shadow, transform;
+  }
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 10px 10px -10px rgba(0, 0, 0, 0.5);
+    -webkit-transform: scale(1.006);
+    transform: scale(1.006);
+  }
+  /*.hvr-glow {
+    display: inline-block;
+    vertical-align: middle;
+    -webkit-transform: perspective(1px) translateZ(0);
+    transform: perspective(1px) translateZ(0);
+    box-shadow: 0 0 1px rgba(0, 0, 0, 0);
+    -webkit-transition-duration: 0.3s;
+    transition-duration: 0.3s;
+    -webkit-transition-property: box-shadow;
+    transition-property: box-shadow;
+  }
+  .hvr-glow:hover, .hvr-glow:focus, .hvr-glow:active {
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+  }
+  */
+  .topnav-right
+  {
+    float:right;
+  }
+  ::-webkit-scrollbar
+  {
+    width:0;
+
+  }
+
+  #progressbar
+  {
+    position:fixed;
+    top:0;
+    right:0;
+    width:10px;
+    background:linear-gradient(to top,#008aff,#00ffe7);
+    animation: animate 5s linear infinite;
+  }
+  @keyframe animate
+  {
+    0%,100%
+    {
+      filter:hue-rotate(0deg);
+    }
+    50%
+    {
+      filter:hue-rotate(0deg);
+    }
+  }
+  #progresspar:before
+  {
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to top,#008aff,#00ffe7);
+    filter: blur(10px);
+  }
+  #progresspar:after
+  {
+    content: '';
+    position:absolute;
+    top:0;
+    left: 0;
+    width:100%;
+    height:100%;
+    background: linear-gradient(to top,#008aff,#00ffe7);
+    filter: blur(30px);
+  }
+}
